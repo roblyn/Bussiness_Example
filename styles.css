@@ -82,13 +82,13 @@ li {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  border-bottom: indigo;
   height: auto;
+  overflow: hidden;
 }
 .products img {
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: auto;
+  width: 300px;
+  object-fit: cover;
 }
 .product1,
 .product2,
@@ -164,6 +164,9 @@ li {
   }
   .products, .employees{
       height: auto;
+  }
+  .products img{
+    width: 100%;
   }
   .product1,
   .product2,
