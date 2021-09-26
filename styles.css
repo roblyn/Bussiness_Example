@@ -5,11 +5,20 @@ body {
   background-color: white;
   font-size: 22px;
   text-align: center;
-}
-h2{
-    font-size: 2em;
-}
+  font-family: 'Kanit', sans-serif;
 
+}
+h1{
+    font-weight: 700;
+    font-size: 2.5em;
+}
+h2 {
+  font-size: 2em;
+  font-weight: 400;
+}
+p{
+  font-weight: 300;
+}
 .header {
     display: flex;
   flex-direction: column;
@@ -21,11 +30,7 @@ h2{
   flex-flow: column;
   align-items: center;
 }
-/* .companyName{
-    width: 40%;
-    text-align: center;
-    font-size: 2rem;
-} */
+
 .logo img {
   width: 20%;
 }
