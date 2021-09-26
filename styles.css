@@ -70,8 +70,9 @@ li {
   width: 40%;
 }
 .image-description img {
-  width: 400px;
-  height: auto;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
 }
 
 /* sections Products */
@@ -108,6 +109,8 @@ li {
 }
 .employees img {
   width: 100%;
+  height: 400px;
+  object-fit: cover;
 }
 .employee1,
 .employee2,
