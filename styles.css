@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  font-family: "Lexend Mega", sans-serif;
+  color: black;
+  background-color: white;
+  font-size: 22px;
+  text-align: center;
+}
+h2{
+    font-size: 2em;
+}
+
+.header {
+    display: flex;
+  flex-direction: column;
+  flex: 50%;
+}
+.logo {
+  flex: 50%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+/* .companyName{
+    width: 40%;
+    text-align: center;
+    font-size: 2rem;
+} */
+.logo img {
+  width: 20%;
+}
+.navigation {
+  flex: 40%;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.nav, ul {
+  display: flex;
+  justify-content: space-around;
+}
+.navigation a{
+    text-decoration: none;
+    color: black;
+}
+.mobile{
+    display: none;
+}
+
+li {
+  list-style: none;
+}
+/* Description Section */
+.description {
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  margin: auto;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: hsla(357, 3%, 50%, 0.1);
+}
+.info {
+  width: 40%;
+  padding: 10px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+.image-description {
+  width: 40%;
+}
+.image-description img {
+  width: 400px;
+  height: auto;
+}
+
+/* sections Products */
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+}
+.products img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+.product1,
+.product2,
+.product3,
+.product4 {
+  width: 30%;
+}
+/* Section Employees */
+
+.employees {
+  padding-top: 30px;  
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: hsla(357, 3%, 50%, 0.1);
+}
+.employees img {
+  width: 100%;
+}
+.employee1,
+.employee2,
+.employee3 {
+  width: 15%;
+}
+
+/* Footer section */
+
+.footer {
+  justify-content: space-around;
+  height: 100px;
+  align-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .header{
+        flex-direction: row;
+    }
+    .logo{
+        width: 70%;
+    }
+    .logo img{
+        width: 70%;
+    }
+    nav.mobile{
+        display:flex;
+        color: black;
+        align-items: center;
+        width: 30%;
+        font-size: 70px;
+    }
+    .mobile a {
+        width: 100%;
+    }
+    .navigation{
+        display: none;
+    }
+  .description {
+    font-size: 2em;
+    height: auto;
+  }
+  .info {
+    width: 100%;
+  }
+  .image-description {
+    width: 100%;
+  }
+  .image-description img{
+      width: 100%;
+  }
+  .products, .employees{
+      height: auto;
+  }
+  .product1,
+  .product2,
+  .product3,
+  .product4 {
+    width: 100%;
+  }
+.employees p,h5{
+    font-size: 2em;
+}
+  .employee1,
+.employee2,
+.employee3 {
+  width: 100%;
+}
+.footer{
+    font-size: 2em; 
+}
+}
