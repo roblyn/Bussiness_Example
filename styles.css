@@ -169,6 +169,7 @@ li {
   }
   .products, .employees{
       height: auto;
+      
   }
   .products img{
     width: 100%;
@@ -178,6 +179,7 @@ li {
   .product3,
   .product4 {
     width: 100%;
+    margin-top: 30px;
   }
 .employees p,h5{
     font-size: 2em;
