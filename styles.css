@@ -19,6 +19,12 @@ h2 {
 p{
   font-weight: 300;
 }
+li {
+  list-style: none;
+}
+.subtitle{
+  width: 100%;
+}
 .header {
     display: flex;
   flex-direction: column;
@@ -51,9 +57,7 @@ p{
     display: none;
 }
 
-li {
-  list-style: none;
-}
+
 /* Description Section */
 .description {
   display: flex;
@@ -75,7 +79,7 @@ li {
   width: 40%;
 }
 .image-description img {
-  width: 100%;
+  width: 90%;
   height: 400px;
   object-fit: cover;
 }
@@ -92,7 +96,7 @@ li {
   overflow: hidden;
 }
 .products img {
-  width: 300px;
+  width: 100%;
   object-fit: cover;
 }
 .product1,
@@ -165,14 +169,14 @@ li {
     width: 100%;
   }
   .image-description img{
-      width: 100%;
+      width: 90%;
   }
   .products, .employees{
       height: auto;
       
   }
   .products img{
-    width: 100%;
+    width: 80%;
   }
   .product1,
   .product2,
@@ -187,7 +191,7 @@ li {
   .employee1,
 .employee2,
 .employee3 {
-  width: 100%;
+  width: 60%;
 }
 .footer{
     font-size: 2em; 
